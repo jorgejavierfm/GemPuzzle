@@ -1,0 +1,24 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="GemPuzzle.Dimensiones"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+    <Grid HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="480">
+        <RadioButton x:Name="cuatro" Content="4X4" HorizontalAlignment="Center" Margin="171,246,174,0" VerticalAlignment="Top" Height="88" Width="135" FontSize="36" Checked="cuatro_Checked"/>
+        <RadioButton x:Name="seis" Content="6X6" HorizontalAlignment="Left" Margin="171,542,0,0" VerticalAlignment="Top" Height="84" Width="135" FontSize="36" Checked="seis_Checked"/>
+        <TextBlock HorizontalAlignment="Left" Margin="59,36,0,0" TextWrapping="Wrap" Text="DIMENSIONES" VerticalAlignment="Top" Height="58" Width="208" FontSize="36"/>
+        <RadioButton x:Name="cinco" Content="5X5" HorizontalAlignment="Left" Margin="171,394,0,0" VerticalAlignment="Top" Width="135" Height="84" FontSize="36" Checked="cinco_Checked"/>
+    </Grid>
+
+    <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
+    
+</phone:PhoneApplicationPage>

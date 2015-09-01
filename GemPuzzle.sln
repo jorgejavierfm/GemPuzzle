@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GemPuzzle", "GemPuzzle\GemPuzzle.csproj", "{04e36d42-1dcc-4cc7-b8bc-0a2f1c0f7a80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04E36D42-1DCC-4CC7-B8BC-0A2F1C0F7A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E36D42-1DCC-4CC7-B8BC-0A2F1C0F7A80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E36D42-1DCC-4CC7-B8BC-0A2F1C0F7A80}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{04E36D42-1DCC-4CC7-B8BC-0A2F1C0F7A80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E36D42-1DCC-4CC7-B8BC-0A2F1C0F7A80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E36D42-1DCC-4CC7-B8BC-0A2F1C0F7A80}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="GemPuzzle.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot es la cuadrícula raíz donde se coloca todo el contenido de la página-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contiene el nombre de la aplicación y el título de la página-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="ABOUT..." Style="{StaticResource PhoneTextNormalStyle}"/>
+        </StackPanel>
+
+        <!--ContentPanel. Colocar aquí el contenido adicional-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+
+        </Grid>
+        <ScrollViewer HorizontalAlignment="Left" Height="686" Margin="13,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="455">
+        	<TextBlock TextWrapping="Wrap" Height="1310" Width="433" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis nunc ut diam facilisis lacinia. Praesent risus magna, rhoncus et hendrerit vitae, lacinia sit amet velit. Donec tincidunt libero massa, eget tristique massa. Vestibulum pretium fringilla quam, ac malesuada quam dignissim vel. In ullamcorper nisl sed dui tincidunt quis auctor libero varius. Nam semper auctor lectus, eu faucibus velit dictum in. Suspendisse at mauris tortor, non lacinia nibh. Ut rutrum varius dolor sed sollicitudin. Duis nec purus et purus tempor placerat sit amet sit amet justo. Fusce nec elit quis dui commodo scelerisque. Maecenas mattis elementum felis, sit amet sollicitudin turpis gravida nec. Integer at nunc erat, a tristique tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis nunc ut diam facilisis lacinia. Praesent risus magna, rhoncus et hendrerit vitae, lacinia sit amet velit. Donec tincidunt libero massa, eget tristique massa. Vestibulum pretium fringilla quam, ac malesuada quam dignissim vel. In ullamcorper nisl sed dui tincidunt quis auctor libero varius. Nam semper auctor lectus, eu faucibus velit dictum in. Suspendisse at mauris tortor, non lacinia nibh. Ut rutrum varius dolor sed sollicitudin. Duis nec purus et purus tempor placerat sit amet sit amet justo. Fusce nec elit quis dui commodo scelerisque. Maecenas mattis elementum felis, sit amet sollicitudin turpis gravida nec. Integer at nunc erat, a tristique tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur iaculis nunc ut diam facilisis lacinia. Praesent risus magna, rhoncus et hendrerit vitae, lacinia sit amet velit. Donec tincidunt libero massa, eget tristique massa. Vestibulum pretium fringilla quam, ac malesuada quam dignissim vel. In ullamcorper nisl sed dui tincidunt quis auctor libero varius. Nam semper auctor lectus, eu faucibus velit dictum in. Suspendisse at mauris tortor, non lacinia nibh. Ut rutrum varius dolor sed sollicitudin. Duis nec purus et purus tempor placerat sit amet sit amet justo. Fusce nec elit quis dui commodo scelerisque. Maecenas mattis elementum felis, sit amet sollicitudin turpis gravida nec. Integer at nunc erat, a tristique tellus."/>
+        </ScrollViewer>
+    </Grid>
+
+</phone:PhoneApplicationPage>
